@@ -1,0 +1,168 @@
+// Prepend Bootstrap
+
+	$icon-font-path: "../plugins/bootstrap/3.3.7_sass/fonts/bootstrap/"; 
+	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap";
+
+// BaseKit Main Stylesheet 
+
+	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap/variables";
+	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap/mixins";
+
+	@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700");
+
+	@import "essentials";
+	@import "layout/layout";
+	@import "layout/layout-basekit";
+	@import "header/header-1";
+	@import "color_scheme/blue"; 
+
+	#topNav .logo {
+		display: inline-block;
+		padding-top: 11px;
+		font-size: 35px;
+		font-family: 'Raleway';
+		color: white;
+		font-weight: bold;
+		text-shadow: 1px 1px 5px #000;
+	}
+
+	@media only screen and (max-width: 992px) {
+		#header #topNav a.logo {
+			font-size: 30px;
+			padding-top: 6px;
+		}
+	}
+	#header.fixed #topNav a.logo {
+		font-size: 30px;
+		padding-top: 6px;
+	}
+
+
+
+
+/** Userbox
+	 ********************** **/
+	#header li.user-menu ul.user-box {
+		display:none;
+		right: 0;
+		left:auto;
+		top: 100%;
+		padding:10px 0;
+		background-color: #fff;
+		position: absolute;
+		box-shadow: 5px 5px rgba(91, 91, 91, 0.2);
+		width: 274px;
+		margin-top: 36px;
+		z-index: 22;
+	}
+	#header.fixed  li.user-menu ul.user-box {
+		margin-top:18px;
+	}
+		#header.fixed.header-sm li.user-menu ul.user-box {
+			margin-top:18px;
+		}
+		#header.fixed.header-md li.user-menu ul.user-box {
+			margin-top:15px;
+		}
+
+	#header li.user-menu .user-menu-wrapper {
+		max-height:400px;
+		overflow-y:auto;
+	}
+	#header li.user-menu ul.user-box h4 {
+		font-size:17px;
+		margin:0; 
+		padding:0 10px 10px 10px;
+		border-bottom:rgba(0,0,0,0.1) 1px solid;
+	}
+	#header li.user-menu ul.user-box a {
+		display:block;
+		padding:15px 10px;
+		border-bottom:rgba(0,0,0,0.04) 1px solid;
+	}
+	#header li.user-menu ul.user-box a:hover {
+		background-color:rgba(0,0,0,0.03);
+	}
+	#header li.user-menu ul.user-box a>img {
+		float:left;
+		margin-right:10px;
+	}
+	#header li.user-menu ul.user-box a h6 {
+		margin:0; 
+		padding:4px 0 0 0;
+
+		text-overflow:ellipsis; 
+		white-space: nowrap;
+		overflow:hidden;
+	}
+	#header li.user-menu ul.user-box a.btn {
+		background-color:#151515;
+		border:0; margin:0;
+		padding-top:6px;
+		padding-bottom:4px;
+	}
+	#header li.user-menu .user-menu-footer {
+		padding:10px 10px 0 10px;
+	}
+	#header li.user-menu .user-menu-footer>span {
+		display:inline-block;
+		padding-top:3px;
+		background-color:rgba(0,0,0,0.05);
+		padding: 4px 3px;
+
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+				border-radius: 3px;
+	}
+
+	@media only screen and (min-width: 992px) { /* min-width */
+		#header li.user-menu ul.user-box {
+			top:21px;
+		}
+		#header.header-sm li.user-menu ul.user-box {
+			margin-top:19px;
+		}
+		#header.header-md li.user-menu ul.user-box {
+			margin-top:26px;
+		}
+		#header li.user-menu .user-menu-wrapper {
+			max-height:300px;
+			overflow-y:auto;
+		}
+	}
+
+	@media only screen and (max-width: 992px) { /* max-width */
+		#header li.user-menu ul.user-box {
+			margin-top:18px;
+		}
+		#header.dark li.search .search-box {
+			margin-top:38px !important;
+		}
+
+	}
+	@media only screen and (max-width: 769px) {
+		#header li.user-menu ul.user-box {
+			position:fixed;
+			width:100%;
+			left:0; right:0;
+			top:60px;
+			margin-top:0;
+			border:rgba(0,0,0,0.08) 1px solid !important;
+		}
+		#header.dark li.user-menu ul.user-box {
+			border:rgba(255,255,255,0.08) 1px solid;
+		}
+		#header li.user-menu .user-menu-wrapper {
+			max-height:200px;
+			overflow-y:auto;
+		}
+		
+		/** 
+			Quick Cart & top Search Fix (if #topBar exists).
+			.has-topBar - added by Javascript
+		**/
+		#header ul.has-topBar>li.user-menu ul.user-box,
+		#header ul.has-topBar>li.search .search-box {
+			top:98px !important;
+		}
+	}
