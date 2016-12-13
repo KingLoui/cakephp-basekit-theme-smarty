@@ -1,17 +1,17 @@
 <?php $this->layout('demo/dark'); ?>
 
 <?php $this->append('css'); ?>
-  <?= $this->Html->css('KingLoui/BaseKitThemeTwentySixteen./plugins/slider.revolution/css/extralayers.css') ?>
-  <?= $this->Html->css('KingLoui/BaseKitThemeTwentySixteen./plugins/slider.revolution/css/settings.css') ?>
+  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/css/extralayers.css') ?>
+  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/css/settings.css') ?>
 <?php $this->end(); ?>
 
  <?=
   $this->Html->script(
   [
-      'KingLoui/BaseKitThemeTwentySixteen./plugins/slider.revolution/js/jquery.themepunch.tools.min.js',
-      'KingLoui/BaseKitThemeTwentySixteen./plugins/slider.revolution/js/jquery.themepunch.revolution.min.js',
+      'KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/js/jquery.themepunch.tools.min.js',
+      'KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/js/jquery.themepunch.revolution.min.js',
 
-      'KingLoui/BaseKitThemeTwentySixteen.theme-basekit-default/view/demo.revolution_slider.js'
+      'KingLoui/BaseKitThemeSmarty.view/demo.revolution_slider.js'
   ], 
   ['block' => 'script_body'])
 ?>

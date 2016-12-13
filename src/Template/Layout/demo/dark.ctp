@@ -16,20 +16,20 @@ $pageTitle = 'BaseKit Theme Twenty Sixteen:';
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
-    <?= $this->Html->css('KingLoui/BaseKitThemeTwentySixteen.basekit-default.css') ?>
+    <?= $this->Html->css('KingLoui/BaseKitThemeSmarty.theme.css') ?>
 
-    <?= $this->Html->css('KingLoui/BaseKitThemeTwentySixteen./plugins/slider.swiper/dist/css/swiper.min.css') ?>
-    <?= $this->Html->css('KingLoui/BaseKitThemeTwentySixteen./plugins/font-awesome/4.6.3/css/font-awesome.min.css') ?>
+    <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/slider.swiper/dist/css/swiper.min.css') ?>
+    <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/font-awesome/4.6.3/css/font-awesome.min.css') ?>
 
     <?=
       $this->Html->script(
       [
-          //'KingLoui/BaseKitThemeTwentySixteen./plugins/jquery/jquery-3.1.0.min.js', 
-          'KingLoui/BaseKitThemeTwentySixteen./plugins/jquery/jquery-2.1.4.min.js',
-          'KingLoui/BaseKitThemeTwentySixteen./plugins/bootstrap/3.3.7_sass/javascripts/bootstrap.min.js',
-          'KingLoui/BaseKitThemeTwentySixteen./plugins/slider.swiper/dist/js/swiper.min.js',
-          'KingLoui/BaseKitThemeTwentySixteen.theme-basekit-default/theme-basekit-default.js',
-          'KingLoui/BaseKitThemeTwentySixteen.theme-basekit-default/view/demo.swiper_slider.js',
+          //'KingLoui/BaseKitThemeSmarty./plugins/jquery/jquery-3.1.0.min.js', 
+          'KingLoui/BaseKitThemeSmarty./plugins/jquery/jquery-2.1.4.min.js',
+          'KingLoui/BaseKitThemeSmarty./plugins/bootstrap/3.3.7_sass/javascripts/bootstrap.min.js',
+          'KingLoui/BaseKitThemeSmarty./plugins/slider.swiper/dist/js/swiper.min.js',
+          'KingLoui/BaseKitThemeSmarty.theme.js',
+          'KingLoui/BaseKitThemeSmarty.view/demo.swiper_slider.js',
       ], 
       ['block' => 'scriptfiles_body'])
     ?>

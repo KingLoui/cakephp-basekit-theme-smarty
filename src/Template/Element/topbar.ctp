@@ -27,11 +27,11 @@
     <ul class="top-links list-inline">
       <li><a href="page-faq-1.html">THEME DOCUMENTATION</a></li>
       <li>
-        <a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/theme-basekit-default/flags/us.png') ?>" width="16" height="11" alt="lang" /> ENGLISH</a>
+        <a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/flags/us.png') ?>" width="16" height="11" alt="lang" /> ENGLISH</a>
         <ul class="dropdown-langs dropdown-menu">
-          <li><a tabindex="-1" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/theme-basekit-default/flags/us.png') ?>" width="16" height="11" alt="lang" /> ENGLISH</a></li>
+          <li><a tabindex="-1" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/flags/us.png') ?>" width="16" height="11" alt="lang" /> ENGLISH</a></li>
           <li class="divider"></li>
-          <li><a tabindex="-1" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/theme-basekit-default/flags/de.png') ?>" width="16" height="11" alt="lang" /> GERMAN</a></li>
+          <li><a tabindex="-1" href="#"><img class="flag-lang" src="<?= $this->Url->image('/img/flags/de.png') ?>" width="16" height="11" alt="lang" /> GERMAN</a></li>
         </ul>
       </li>
     </ul>
