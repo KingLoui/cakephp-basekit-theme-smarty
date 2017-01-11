@@ -9,3 +9,9 @@ The recommended way to install composer packages is:
 ```
 composer require kingloui/cakephp-basekit-theme-smarty:dev-master
 ```
+
+Download assets 
+
+```
+bower install
+```
