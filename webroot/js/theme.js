@@ -41,7 +41,7 @@
 		jQuery.browserDetect();
 
 		// Load Bootstrap JS
-		loadScript(plugin_path + 'bootstrap/3.3.7_sass/javascripts/bootstrap.min.js', function() {
+		loadScript(plugin_path + 'bootstrap/dist/js/bootstrap.min.js', function() {
 
 			Init(false);
 
@@ -813,7 +813,7 @@
 
 		if(_container.length > 0) {
 
-			loadScript(plugin_path + 'owl-carousel/owl.carousel.min.js', function() {
+			loadScript(plugin_path + 'owl-carousel/owl-carousel/owl.carousel.min.js', function() {
 
 				_container.each(function() {
 
@@ -1102,7 +1102,7 @@
 
 		if(_el.length > 0) {
 
-			loadScript(plugin_path + 'magnific-popup/jquery.magnific-popup.min.js', function() {
+			loadScript(plugin_path + 'magnific-popup/dist/jquery.magnific-popup.min.js', function() {
 
 				if(typeof(jQuery.magnificPopup) == "undefined") {
 					return false;
@@ -1338,7 +1338,7 @@
 		var _container = jQuery('.mix-grid');
 		
 		if(_container.length > 0) {
-			loadScript(plugin_path + 'mixitup/jquery.mixitup.min.js', function() {
+			loadScript(plugin_path + 'jquery-mixitup/dist/mixitup.min.js', function() {
 
 				if(jQuery().mixitup) {
 
@@ -2358,8 +2358,8 @@
 		 ************************ **/
 		if(jQuery('form.validate-plugin').length > 0) {
 
-			loadScript(plugin_path + 'form.validate/jquery.form.min.js', function() {
-				loadScript(plugin_path + 'form.validate/jquery.validation.min.js');
+			loadScript(plugin_path + 'jquery-form/jquery.form.js', function() {
+				loadScript(plugin_path + 'jquery-validation/dist/jquery.validate.min.js');
 			});
 
 		}
@@ -2370,8 +2370,8 @@
 		 ************************ **/
 		if(jQuery('form.validate').length > 0) {
 
-			loadScript(plugin_path + 'form.validate/jquery.form.min.js', function() {
-				loadScript(plugin_path + 'form.validate/jquery.validation.min.js', function() {
+			loadScript(plugin_path + 'jquery-form/jquery.form.js', function() {
+				loadScript(plugin_path + 'jquery-validation/dist/jquery.validate.min.js', function() {
 
 					if(jQuery().validate) {
 

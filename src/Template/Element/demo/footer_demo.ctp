@@ -5,7 +5,7 @@
       
       <div class="col-md-3">
         <!-- Footer Logo -->
-        <?= $this->Html->image('/img/theme-basekit-default/logo-footer.png', ['class' => 'footer-logo']) ?>
+        <?= $this->Html->image('/img/logo-footer.png', ['class' => 'footer-logo']) ?>
 
         <!-- Small Description -->
         <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>

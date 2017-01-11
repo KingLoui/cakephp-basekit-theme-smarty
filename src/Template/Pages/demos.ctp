@@ -1,15 +1,15 @@
 <?php $this->layout('demo/dark'); ?>
 
 <?php $this->append('css'); ?>
-  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/css/extralayers.css') ?>
-  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/css/settings.css') ?>
+  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins_private/slider.revolution/css/extralayers.css') ?>
+  <?= $this->Html->css('KingLoui/BaseKitThemeSmarty./plugins_private/slider.revolution/css/settings.css') ?>
 <?php $this->end(); ?>
 
  <?=
   $this->Html->script(
   [
-      'KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/js/jquery.themepunch.tools.min.js',
-      'KingLoui/BaseKitThemeSmarty./plugins/slider.revolution/js/jquery.themepunch.revolution.min.js',
+      'KingLoui/BaseKitThemeSmarty./plugins_private/slider.revolution/js/jquery.themepunch.tools.min.js',
+      'KingLoui/BaseKitThemeSmarty./plugins_private/slider.revolution/js/jquery.themepunch.revolution.min.js',
 
       'KingLoui/BaseKitThemeSmarty.view/demo.revolution_slider.js'
   ], 
@@ -51,7 +51,7 @@
 
       <!-- SLIDE  -->
       <li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-delay="10000" data-saveperformance="off" data-title="Slide 1" style="background-color: #F6F6F6;">
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/backgrounds/grey-noise-min.jpg" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
+        <img src="<?= $this->Url->image('backgrounds/grey-noise-min.jpg') ?>" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
 
         <div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
           data-x="left" data-hoffset="0"
@@ -66,7 +66,7 @@
           data-endelementdelay="0.1"
           data-endspeed="1000"
           data-endeasing="Power4.easeIn">
-          <img src="<?= $this->Url->image('theme-basekit-default') ?>/demo/desktop_slider_2.png" alt="">
+          <img src="<?= $this->Url->image('demo/desktop_slider_2.png') ?>" alt="">
         </div>
 
         <div class="tp-caption large_bold_grey skewfromrightshort customout font-open-sans"
@@ -171,7 +171,7 @@
       <!-- SLIDE  -->
       <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 2">
 
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/index-min.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+        <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/index-min.jpg') ?>" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
         <div class="overlay dark-1"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -245,7 +245,7 @@
 
       <!-- SLIDE  -->
       <li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" data-title="Slide 3">
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/wall2.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+        <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/wall2.jpg') ?>" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
         <div class="tp-caption lfr" 
           data-x="left" data-hoffset="60"
@@ -257,7 +257,7 @@
           data-endelementdelay="0.1" 
           data-endspeed="300" 
           style="z-index: 2;">
-          <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/ipad.png" alt="" />
+          <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/ipad.png') ?>" alt="" />
         </div>
 
         <div class="tp-caption block_black sft" 
@@ -334,7 +334,7 @@
       <!-- SLIDE  -->
       <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="http://www.stepofweb.com/" data-title="Slide 4" data-target="_blank" data-saveperformance="off">
 
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/wall.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+        <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/wall.jpg') ?>" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
         <div class="tp-caption lfb" 
           data-x="right" data-hoffset="-70" 
@@ -346,7 +346,7 @@
           data-endelementdelay="0.1" 
           data-endspeed="300" 
           style="z-index: 2;">
-          <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" alt="" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/desktop_slider.png">
+          <img src="<?= $this->Url->image('1x1.png') ?>" alt="" data-lazyload="<?= $this->Url->image('demo/desktop_slider.png') ?>">
         </div>
 
         <div class="tp-caption mediumlarge_light_white lfb tp-resizeme" 
@@ -423,7 +423,7 @@
       <!-- SLIDE  -->
       <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 5">
 
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/1200x800/24-min.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
+        <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/1200x800/24-min.jpg') ?>" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
 
         <div class="tp-caption very_large_text lfb ltt tp-resizeme"
           data-x="right" data-hoffset="-100"
@@ -462,7 +462,7 @@
       <!-- SLIDE -->
       <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 6">
 
-        <img src="<?= $this->Url->image('theme-basekit-default') ?>/1x1.png" data-lazyload="<?= $this->Url->image('theme-basekit-default') ?>/demo/video/back.jpg" alt="video" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+        <img src="<?= $this->Url->image('1x1.png') ?>" data-lazyload="<?= $this->Url->image('demo/video/back.jpg') ?>" alt="video" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
 
         <div class="tp-caption tp-fade fadeout fullscreenvideo"
           data-x="0"
@@ -484,9 +484,9 @@
 
           <div class="tp-dottedoverlay twoxtwo"><!-- dotted overlay --></div>
 
-          <video class="" preload="none" style="width:100%;height:100%" poster="<?= $this->Url->image('theme-basekit-default') ?>/demo/video/back.jpg">
-            <source src="<?= $this->Url->image('theme-basekit-default') ?>/demo/video/back.webm" type="video/webm" />
-            <source src="<?= $this->Url->image('theme-basekit-default') ?>/demo/video/back.mp4" type="video/mp4" />
+          <video class="" preload="none" style="width:100%;height:100%" poster="<?= $this->Url->image('demo/video/back.jpg') ?>">
+            <source src="<?= $this->Url->image('demo/video/back.webm') ?>" type="video/webm" />
+            <source src="<?= $this->Url->image('demo/video/back.mp4') ?>" type="video/mp4" />
           </video>
 
         </div>
@@ -614,7 +614,7 @@
       </p>
 
       <div class="margin-top-40">
-        <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/index/ipad.jpg" alt="welcome" />
+        <img class="img-responsive" src="<?= $this->Url->image('demo/index/ipad.jpg') ?>" alt="welcome" />
       </div>
 
     </div>
@@ -698,7 +698,7 @@
       </div>
 
       <div class="col-sm-6">
-        <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/index/support.jpg" alt="support" />
+        <img class="img-responsive" src="<?= $this->Url->image('demo/index/support.jpg') ?>" alt="support" />
       </div>
 
     </div>
@@ -785,7 +785,7 @@
 
       <div class="col-lg-4 col-md-4 col-md-push-4 text-center">
       
-        <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/iphone-min.png" alt="" />
+        <img class="img-responsive" src="<?= $this->Url->image('demo/iphone-min.png') ?>" alt="" />
 
       </div>
 
@@ -901,7 +901,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/1-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/1-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -913,7 +913,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/1-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/1-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -938,7 +938,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/11-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/11-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -950,7 +950,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/11-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/11-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -975,7 +975,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/20-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/20-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -987,7 +987,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/20-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/20-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1012,7 +1012,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/19-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/19-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -1024,7 +1024,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/19-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/19-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1049,7 +1049,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/12-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/12-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -1061,7 +1061,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/12-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/12-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1086,7 +1086,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/13-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/13-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -1098,7 +1098,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/13-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/13-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1123,7 +1123,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/14-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/14-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -1135,7 +1135,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/14-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/14-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1160,7 +1160,7 @@
               <span class="inner">
 
                 <!-- lightbox -->
-                <a class="ico-rounded lightbox" href="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/1200x800/15-min.jpg" data-plugin-options='{"type":"image"}'>
+                <a class="ico-rounded lightbox" href="<?= $this->Url->image('demo/mockups/1200x800/15-min.jpg') ?>" data-plugin-options='{"type":"image"}'>
                   <span class="fa fa-plus size-20"></span>
                 </a>
 
@@ -1172,7 +1172,7 @@
               </span>
             </span>
 
-            <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/mockups/600x399/15-min.jpg" width="600" height="399" alt="">
+            <img class="img-responsive" src="<?= $this->Url->image('demo/mockups/600x399/15-min.jpg') ?>" width="600" height="399" alt="">
           </figure>
 
           <div class="item-box-desc">
@@ -1285,7 +1285,7 @@
         <div class="row tab-post"><!-- post -->
           <div class="col-md-2 col-sm-2 col-xs-2">
             <a href="blog-sidebar-left.html">
-              <img src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/300x300/1-min.jpg" width="50" alt="" />
+              <img src="<?= $this->Url->image('demo/people/300x300/1-min.jpg') ?>" width="50" alt="" />
             </a>
           </div>
           <div class="col-md-10 col-sm-10 col-xs-10">
@@ -1297,7 +1297,7 @@
         <div class="row tab-post"><!-- post -->
           <div class="col-md-2 col-sm-2 col-xs-2">
             <a href="blog-sidebar-left.html">
-              <img src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/300x300/2-min.jpg" width="50" alt="" />
+              <img src="<?= $this->Url->image('demo/people/300x300/2-min.jpg') ?>" width="50" alt="" />
             </a>
           </div>
           <div class="col-md-10 col-sm-10 col-xs-10">
@@ -1309,7 +1309,7 @@
         <div class="row tab-post"><!-- post -->
           <div class="col-md-2 col-sm-2 col-xs-2">
             <a href="blog-sidebar-left.html">
-              <img src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/300x300/3-min.jpg" width="50" alt="" />
+              <img src="<?= $this->Url->image('demo/people/300x300/3-min.jpg') ?>" width="50" alt="" />
             </a>
           </div>
           <div class="col-md-10 col-sm-10 col-xs-10">
@@ -1331,7 +1331,7 @@
 
 
 <!-- PARALLAX -->
-<section class="parallax parallax-2" style="background-image: url('<?= $this->Url->image('theme-basekit-default') ?>/demo/1200x800/3-min.jpg');">
+<section class="parallax parallax-2" style="background-image: url('<?= $this->Url->image('demo/1200x800/3-min.jpg') ?>');">
   <div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 
   <div class="container">
@@ -1412,7 +1412,7 @@
           <div class="front">
             <div class="box1 box-default">
               <div class="box-icon-title">
-                <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/460x700/7-min.jpg" alt="" />
+                <img class="img-responsive" src="<?= $this->Url->image('demo/people/460x700/7-min.jpg') ?>" alt="" />
                 <h2>Felica Doe</h2>
                 <small>CEO</small>
               </div>
@@ -1456,7 +1456,7 @@
           <div class="front">
             <div class="box1 box-default">
               <div class="box-icon-title">
-                <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/460x700/12-min.jpg" alt="" />
+                <img class="img-responsive" src="<?= $this->Url->image('demo/people/460x700/12-min.jpg') ?>" alt="" />
                 <h2>Joana Doe</h2>
                 <small>Art Director</small>
               </div>
@@ -1500,7 +1500,7 @@
           <div class="front">
             <div class="box1 box-default">
               <div class="box-icon-title">
-                <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/460x700/10-min.jpg" alt="" />
+                <img class="img-responsive" src="<?= $this->Url->image('demo/people/460x700/10-min.jpg') ?>" alt="" />
                 <h2>Melissa Doe</h2>
                 <small>Web Developer</small>
               </div>
@@ -1544,7 +1544,7 @@
           <div class="front">
             <div class="box1 box-default">
               <div class="box-icon-title">
-                <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/people/460x700/8-min.jpg" alt="" />
+                <img class="img-responsive" src="<?= $this->Url->image('demo/people/460x700/8-min.jpg') ?>" alt="" />
                 <h2>Jessica Doe</h2>
                 <small>Manager</small>
               </div>
@@ -1622,7 +1622,7 @@
     <div class="owl-carousel owl-padding-10 buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}'>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/24-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/24-min.jpg') ?>" alt="">
         </a>
 
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
@@ -1642,7 +1642,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/17-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/17-min.jpg') ?>" alt="">
         </a>
 
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
@@ -1662,7 +1662,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/30-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/30-min.jpg') ?>" alt="">
         </a>
 
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
@@ -1682,7 +1682,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/26-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/26-min.jpg') ?>" alt="">
         </a>
 
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
@@ -1702,7 +1702,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/18-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/18-min.jpg') ?>" alt="">
         </a>
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
         <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
@@ -1721,7 +1721,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/34-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/34-min.jpg') ?>" alt="">
         </a>
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
         <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
@@ -1740,7 +1740,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/37-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/37-min.jpg') ?>" alt="">
         </a>
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
         <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
@@ -1759,7 +1759,7 @@
       </div>
       <div class="img-hover">
         <a href="blog-single-default.html">
-          <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/451x300/23-min.jpg" alt="">
+          <img class="img-responsive" src="<?= $this->Url->image('demo/451x300/23-min.jpg') ?>" alt="">
         </a>
         <h4 class="text-left margin-top-20"><a href="blog-single-default.html">Lorem Ipsum Dolor</a></h4>
         <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
@@ -1796,28 +1796,28 @@
 <div class="text-center margin-top-30 margin-bottom-30">
   <div class="owl-carousel nomargin" data-plugin-options='{"items":6, "singleItem": false, "autoPlay": true}'>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/1.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/1.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/2.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/2.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/3.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/3.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/4.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/4.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/5.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/5.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/6.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/6.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/7.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/7.jpg') ?>" alt="">
     </div>
     <div>
-      <img class="img-responsive" src="<?= $this->Url->image('theme-basekit-default') ?>/demo/brands/8.jpg" alt="">
+      <img class="img-responsive" src="<?= $this->Url->image('demo/brands/8.jpg') ?>" alt="">
     </div>
   </div>
 </div>

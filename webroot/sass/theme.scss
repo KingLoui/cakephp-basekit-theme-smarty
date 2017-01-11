@@ -1,12 +1,12 @@
 // Prepend Bootstrap
 
-	$icon-font-path: "../plugins/bootstrap/3.3.7_sass/fonts/bootstrap/"; 
-	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap";
+	$icon-font-path: "../plugins/bootstrap-sass/assets/fonts/bootstrap/"; 
+	@import "../plugins/bootstrap-sass/assets/stylesheets/bootstrap";
 
 // BaseKit Main Stylesheet 
 
-	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap/variables";
-	@import "../plugins/bootstrap/3.3.7_sass/stylesheets/bootstrap/mixins";
+	@import "../plugins/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+	@import "../plugins/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 	@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700");
 
@@ -15,6 +15,25 @@
 	@import "layout/layout-basekit";
 	@import "header/header-1";
 	@import "color_scheme/blue"; 
+
+
+
+	@import "../plugins/font-awesome/css/font-awesome.min.css"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	#topNav .logo {
 		display: inline-block;

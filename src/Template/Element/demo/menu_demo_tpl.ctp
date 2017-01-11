@@ -39,13 +39,13 @@
           <div class="quick-cart-wrapper">
 
             <a href="#"><!-- cart item -->
-              <img src="<?= $this->Url->image('/img/theme-basekit-default/demo/people/300x300/4-min.jpg') ?>" width="45" height="45" alt="" />
+              <img src="<?= $this->Url->image('/img/demo/people/300x300/4-min.jpg') ?>" width="45" height="45" alt="" />
               <h6><span>2x</span> RED BAG WITH HUGE POCKETS</h6>
               <small>$37.21</small>
             </a><!-- /cart item -->
 
             <a href="#"><!-- cart item -->
-              <img src="<?= $this->Url->image('/img/theme-basekit-default/demo/people/300x300/5-min.jpg') ?>" width="45" height="45" alt="" />
+              <img src="<?= $this->Url->image('/img/demo/people/300x300/5-min.jpg') ?>" width="45" height="45" alt="" />
               <h6><span>2x</span> THIS IS A VERY LONG TEXT AND WILL BE TRUNCATED</h6>
               <small>$17.18</small>
             </a><!-- /cart item -->
@@ -75,7 +75,7 @@
 
     <!-- Logo -->
     <a class="logo pull-left" href="index.html">
-      <?= $this->Html->image('/img/theme-basekit-default/logo_light.png') ?>
+      <?= $this->Html->image('/img/logo_light.png') ?>
     </a>
 
     <!-- 
